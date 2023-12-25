@@ -1,3 +1,82 @@
 <resources>
-    <string name="app_name">ReadingList</string>
+    <string name="app_name">Farlan ReadingList</string>
+
+    <string-array name="data_book_title">
+        <item>Atomic Habits</item>
+        <item>The Psychology of Money</item>
+        <item>Bicara Itu Ada Seninya</item>
+        <item>The 48 Laws of Power</item>
+        <item>Seni Negosiasi Superior</item>
+        <item>The Visual MBA</item>
+        <item>The 360° Leader</item>
+        <item>The Magic</item>
+        <item>Iblis Menggugat Tuhan</item>
+        <item>Bilangan Fu</item>
+    </string-array>
+
+    <string-array name="data_book_author">
+        <item>James Clear</item>
+        <item>Morgan Housel</item>
+        <item>Oh Su Hyang</item>
+        <item>Robert Greene</item>
+        <item>Leonie McKeon</item>
+        <item>Jason Barron</item>
+        <item>John C. Maxwell</item>
+        <item>Rhonda Byrne</item>
+        <item>Shawni</item>
+        <item>Ayu Utami</item>
+    </string-array>
+
+    <string-array name="data_book_publisher">
+        <item>Gramedia Pustaka Utama</item>
+        <item>BACA</item>
+        <item>Bhuana Ilmu Populer</item>
+        <item>Binarupa Aksara</item>
+        <item>Elex Media Komputindo</item>
+        <item>Renebook</item>
+        <item>Bhuana Ilmu Populer</item>
+        <item>Gramedia Pustaka Utama</item>
+        <item>Dastan Books</item>
+        <item>Kepustakaan Populer Gramedia</item>
+    </string-array>
+
+    <string-array name="data_book_release_year">
+        <item>2019</item>
+        <item>2021</item>
+        <item>2021</item>
+        <item>2007</item>
+        <item>2023</item>
+        <item>2022</item>
+        <item>2021</item>
+        <item>2012</item>
+        <item>2006</item>
+        <item>2023</item>
+    </string-array>
+
+    <string-array name="data_book_description">
+        <item>Atomic Habits: Perubahan Kecil yang Memberikan Hasil Luar Biasa adalah buku kategori self improvement karya James Clear. Pada umumnya, perubahan-perubahan kecil seringkali terkesan tak bermakna karena tidak langsung membawa perubahan nyata pada hidup suatu manusia. Jika diumpamakan sekeping koin tidak bisa menjadikan kaya, suatu perubahan positif seperti meditasi selama satu menit atau membaca buku satu halaman setiap hari mustahil menghasilkan perbedaan yang bisa terdeteksi. Namun hal tersebut tidak sejalan dengan pemikiran James Clear, ia merupakan seorang pakar dunia yang terkenal dengan habits atau kebiasaan. Ia tahu bahwa tiap perbaikan kecil bagaikan menambahkan pasir ke sisi positif timbangan dan akan menghasilkan perubahan nyata yang berasal dari efek gabungan ratusan bahkan ribuan keputusan kecil. Ia menamakan perubahan kecil yang membawa pengaruh yang luar biasa dengan nama atomic habits.</item>
+        <item>Memiliki uang yang banyak bagi sebagian orang bisa membuat diri sendiri menjadi senang. Namun, ternyata memiliki uang yang banyak tak selamanya menyenangkan, sehingga sebagian orang merasa takut dan bingung. Dengan kata lain, memiliki uang yang banyak bisa memunculkan kesenangan atau kesejahteraan dan kesengsaraan. Itulah sebabnya mengapa seseorang harus memiliki sikap dan kemampuan mengelola keuangan yang baik dan benar.</item>
+        <item>Ketika komunikasi menjadi hal yang penting untuk bersaing, pakar komunikasi Oh Su Hyang mengeluarkan buku yang sangat berarti. Selain berisi tentang pengalaman peningkatan diri, buku ini juga memuat berbagai konten mengenai teknik komunikasi, persuasi, dan negosiasi. Lalu bagaimana cara berbicara yang baik? Apakah berbicara dengan artikulasi yang jelas? Atau berbicara tanpa mengambil tarikan napas? Tidak! Sebuah ucapan yang bisa disebut baik adalah yang bisa menggetarkan hati. Ucapan seorang juara memiliki daya tarik tersendiri. Ucapan pemandu acara memiliki kemampuan menghidupkan suasana dan kekuatan kalimatnya yang terus terang. Anda harus pandai berbicara untuk menunjukkan diri Anda kepada lawan bicara dalam kehidupan sosial. Orang yang berbicara dengan mahir akan menjadi lebih maju daripada yang lainnya.</item>
+        <item>Amoral, lihai, kejam, dan mengarahkan, hasil karya yang tajam ini menyaring tiga ribu tahun sejarah kekuasaan ke dalam empat puluh delapan hukum yang dipaparkan dengan baik. Dengan desain dan isi yang menarik buku yang berani ini menggambarkan garis besar hukum-hukum kekuasaan dengan inti sari yang sesungguhnya, menggabungkan filsafat Machiavelli, Sun-tzu, Carl von Clausewitz, dan para pemikir besar lain.</item>
+        <item>Buku ini membahas 24 strategi Tiongkok tentang negosiasi superior, yang dituliskan dengan banyak sekali cerita dan contoh kasus nyata. Dinarasikan berdasarkan kisah The Art of War, strategi perang Tiongkok kuno yang masih relevan hingga saat ini. Pelajari siasat dan seni bernegosiasi di semua keadaan: - Cara bernegosiasi saat Anda tahu bahwa Anda di posisi yang lebih unggul - Cara bertindak bilamana Anda memiliki kekuatan yang sama dengan lawan - Bagaimana cara melemahkan lawan terlebih dahulu dengan teknik manipulatif, baru bernegosiasi - Bagaimana mengecoh lawan yang posisinya lebih kuat, sehingga mereka tidak fokus.</item>
+        <item>Hampir semua orang ingin mengenyam program MBA (Master of Business Administration) karena menawarkan banyak peluang kemajuan dalam berbisnis. Namun, program MBA mana pun membutuhkan investasi besar: uang, waktu, dan tentu tenaga. Buku ini akan menuntun Anda untuk menguasai seluruh materi program MBA hanya dalam hitungan jam saja. Pemaparannya sangat lugas, disertai sketsa yang menyenangkan dan mudah dimengerti. Kumpulan catatan visual semasa Jason Barron kuliah MBA ini akan membantu Anda untuk mempersenjatai diri dengan pengetahuan, keahlian, dan pengalaman dalam berbisnis. Senjata ini juga bisa diterapkan pada ragam bidang pekerjaan yang sedang Anda jalani saat ini. The Visual MBA hadir karena lebih dari 65% dari kita lebih mudah belajar melalui visual, dan otak kita memproses ilustrasi 60.000 kali lebih cepat daripada teks.</item>
+        <item>Apakah mungkin untuk memimpin dengan baik jika posisi saat ini bukan sebagai pemimpin teratas? Bagaimana jika atasan adalah seorang pemimpin yang tidak cakap? Jawabannya ada dalam buku ini! Jadilah Pemimpin 360 Derajat dan Anda akan mampu memimpin dengan baik meski bukan sebagai pemimpin teratas. Jadilah Pemimpin 360 Derajat dan Anda pun tetap bisa memimpin dengan baik meski memiliki pemimpin yang tidak cakap. Dalam buku ini, akan dijelaskan bagaimana mengatasi berbagai tantangan saat posisi Anda berada di bagian tengah organisasi dan mengajarkan keterampilan yang dibutuhkan untuk menjadi seorang pemimpin 360 derajat, seperti memengaruhi orang, baik atasan, rekan kerja dengan posisi jabatan yang sama, hingga bawahan.</item>
+        <item>Lebih dari dua puluh abad, kata-kata dalam sebuah kalimat suci membuat hampir semua orang yang membacanya bingung, penasaran, dan menyalahartikannya. Hanya sangat sedikit orang sepanjang sejarah yang menyadari bahwa kata-kata tersebut adalah teka teki, dan begitu kita memecahkan teka teki itu—begitu misterinya terkuak— sebuah dunia baru akan tergelar di depan mata kita. Dalam The Magic, Rhonda Byrne mengungkapkan ke dunia suatu pengetahuan yang mampu mengubah hidup kita. Kemudian, dalam latihan luar biasa selama 28 hari, ia mengajarkan cara menerapkan pengetahuan ini dalam hidup kita sehari-hari. Siapa pun Anda, di mana pun Anda berada, apa pun lingkungan Anda sekarang, The Magic akan mengubah total hidup Anda!</item>
+        <item>Kau bilang Adam berdosa gara-gara hasutanku? Kalau begitu, atas hasutan siapa aku melakukan dosa? Aku sebenarnya melakukan apa yang dia perintahkan, dan aku sepenuhnya patuh pada keinginan Allah. Mau bagaimana lagi? Tak ada ruang yang luput dari kuasanya. Aku bukanlah tuan bagi keinginanku sendiri. Aku menyembah Allah selama 700 ribu tahun! Tak ada tempat tersisa di langit dan di Bumi dimana aku tak menyembah-Nya. Setiap hari aku berkata pada-Nya, “Ya Allah, anak keturunan Adam menolak-Mu, namun Engkau tetap bermurah hati dan meninggikan mereka. Tapi aku, yang mencintai dan memuja-Mu dengna pemujaan yang benar, engkau buat menjadi hina dan buruk rupa. ”Lihatlah segala penderitaan dan kesengsaraan yang telahditimpakan-Nya atas dunia ini. Lihatlah betapa monster itu melakukan semuanya hanya untuk menghibur diri! Jika ada yang terlihat murni, dibuat-Nya ternoda! Jika ada yang manis, Dia buat masam! Jika ada yang bernilai, dibuat_Nya jadi sampah! Dia tak lebih dari sekadar Badut dan Pesulap Murahan, Pembohong Gila! Dan Kegilaan-Nya masih terus membuatku lebih gila lagi! The Madness of God menjadikan ketergelinciran Iblis dan dakwaannya kepada Tuhan karena telah “menyesatkannya”, sebagai landasan bagi pertanyaan-pertanyaan mengenai kehendak-bebas di hadapan kemahakuasaan Tuhan. Pertanyaan yang berulang kali diajukan adalah: Jika Tuhan Mahakuasa dan tiada sesuatupun yang dapat terjadi di luar kehendak-Nya, maka bagaimana mungkin makhluk disalahkan karena dosa-dosanya? Seiring dengan bergulirnya cerita, pembaca akan tenggelam dalam keyakinan tentang keesaan, kemahakuasaan, dan keadilan Tuhan. Shawni meramu adikaryanya ini dengan gayanya yang amat unik dan khas. Novel ini terlepas dari judulnya yang provokatif, merupakan usaha Shawni dalam menyelaraskan keimanannya dengan akalnya.</item>
+        <item>Kasus-kasus ganjil terjadi di Sewugunung. Mayat hilang dari kubur. Pembunuhan guru ngaji. Sirkus manusia aneh.... Menjadi saksi rangkaian kejadian itu adalah Sandi Yuda, seorang pemanjat tebing yang melecehkan gaya hidup urban maupun takhayul pedesaan. la bertemu dengan Parang Jati, seseorang yang perlahan menyingkapkan misteri maupun kerentanan, dan mengubah cara berpikir Sandi Yuda. Persahabatan mereka berjalin demikian erat, hingga ia tak keberatan berbagi kekasihnya, Marja, andaikan itu harus terjadi. Tapi, dalam cinta segitiga yang istimewa, eros tak harus selalu menjadi erotisme. Ketiganya lokal terbelit dalam ketegangan antara spiritualitas dan modernitas yang ternyata dogmatis.</item>
+    </string-array>
+
+    <integer-array name="data_book_cover">
+        <item>@drawable/atomic_habits</item>
+        <item>@drawable/the_psychology_of_money</item>
+        <item>@drawable/bicara_itu_ada_seninya</item>
+        <item>@drawable/the_48_laws_of_power</item>
+        <item>@drawable/seni_negosiasi</item>
+        <item>@drawable/the_visual_mba</item>
+        <item>@drawable/the_360_degree_leader</item>
+        <item>@drawable/the_magic</item>
+        <item>@drawable/iblis_menggugat_tuhan</item>
+        <item>@drawable/bilangan_fu</item>
+    </integer-array>
+
 </resources>
