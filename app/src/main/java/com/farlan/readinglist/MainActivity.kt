@@ -2,6 +2,8 @@ package com.farlan.readinglist
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -45,10 +47,10 @@ class MainActivity : AppCompatActivity() {
             val book = Book(
                 dataTitle[i],
                 dataAuthor[i],
-                dataPublisher[i],
-                dataReleaseYear[i],
                 dataDescription[i],
-                dataCover.getResourceId(i, -1))
+                dataCover.getResourceId(i, -1),
+                dataPublisher[i],
+                dataReleaseYear[i])
             listBook.add(book)
         }
 
@@ -67,5 +69,20 @@ class MainActivity : AppCompatActivity() {
                 startActivity(moveIntent)
             }
         })
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.action_about -> {
+                val intent = Intent(this, AboutActivity::class.java)
+                startActivity(intent)
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

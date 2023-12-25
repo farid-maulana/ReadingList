@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">Farlan ReadingList</string>
+    <string name="publisher">Penerbit</string>
+    <string name="release_year">Tahun Terbit</string>
+    <string name="description">Deskripsi</string>
+    <string name="list_view">Tampilan List</string>
+    <string name="grid_view">Tampilan Grid</string>
+    <string name="about_me">Tentang Saya</string>
+    <string name="home">Beranda</string>
 
     <string-array name="data_book_title">
         <item>Atomic Habits</item>

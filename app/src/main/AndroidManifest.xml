@@ -24,10 +24,12 @@
         </activity>
         <activity
             android:name=".AboutActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Tentang Saya"/>
         <activity
             android:name=".DetailBookActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Detail Buku"/>
         <activity
             android:name=".MainActivity"
             android:exported="false" />

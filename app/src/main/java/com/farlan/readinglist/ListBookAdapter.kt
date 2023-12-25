@@ -24,11 +24,11 @@ class ListBookAdapter(private val listBook: ArrayList<Book>) : RecyclerView.Adap
     override fun getItemCount(): Int = listBook.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (title, description, author, cover) = listBook[position]
+        val (title, author, description, cover) = listBook[position]
         holder.binding.tvItemTitle.text = title
         holder.binding.tvItemAuthor.text = author
         holder.binding.tvItemDescription.text = description
-//        holder.binding.imgItemCover.setImageResource(cover.toInt())
+        holder.binding.imgItemCover.setImageResource(cover)
 
         holder.itemView.setOnClickListener {
             onItemClickCallback.onItemClicked(listBook[holder.adapterPosition])

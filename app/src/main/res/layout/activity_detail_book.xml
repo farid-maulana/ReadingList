@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,127 +7,130 @@
     android:padding="@dimen/_16dp"
     tools:context=".DetailBookActivity">
 
-    <LinearLayout
-        android:id="@+id/book_detail"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <ImageView
-            android:id="@+id/img_cover"
-            android:layout_width="144dp"
-            android:layout_height="216dp"
-            android:src="@drawable/seni_negosiasi"/>
+        android:layout_height="match_parent">
 
         <LinearLayout
-            android:id="@+id/book_detail_content"
+            android:id="@+id/book_detail"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-            <TextView
-                android:id="@+id/tv_title"
+            <ImageView
+                android:id="@+id/img_cover"
+                android:layout_width="144dp"
+                android:layout_height="216dp"
+                android:src="@drawable/seni_negosiasi" />
+
+            <LinearLayout
+                android:id="@+id/book_detail_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:text="Seni Negosiasi Superior"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="#45444b"/>
+                android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/tv_author_label"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:text="Penulis"
-                android:textSize="@dimen/body_text"
-                android:textStyle="bold"
-                android:textColor="#45444b"/>
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Seni Negosiasi Superior"
+                    android:textColor="@color/primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/tv_author"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="4dp"
-                android:text="Leonie McKeon"
-                android:textSize="@dimen/body_text"
-                android:textColor="#6a696f"/>
+                <TextView
+                    android:id="@+id/tv_author_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Penulis"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/body_text"
+                    android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/tv_publisher_label"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="12dp"
-                android:text="Penerbit"
-                android:textSize="@dimen/body_text"
-                android:textStyle="bold"
-                android:textColor="#45444b"/>
+                <TextView
+                    android:id="@+id/tv_author"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Leonie McKeon"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/body_text" />
 
-            <TextView
-                android:id="@+id/tv_publisher"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="4dp"
-                android:text="Elex Media Komputindo"
-                android:textSize="@dimen/body_text"
-                android:textColor="#6a696f"/>
+                <TextView
+                    android:id="@+id/tv_publisher_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/publisher"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/body_text"
+                    android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/tv_release_year_label"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="12dp"
-                android:text="Tahun Terbit"
-                android:textSize="@dimen/body_text"
-                android:textStyle="bold"
-                android:textColor="#45444b"/>
+                <TextView
+                    android:id="@+id/tv_publisher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Elex Media Komputindo"
+                    android:textColor="@color/gray_body"
+                    android:textSize="@dimen/body_text" />
 
-            <TextView
-                android:id="@+id/tv_release_year"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="4dp"
-                android:text="2021"
-                android:textSize="@dimen/body_text"
-                android:textColor="#6a696f"/>
+                <TextView
+                    android:id="@+id/tv_release_year_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/release_year"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/body_text"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_release_year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="4dp"
+                    android:text="2021"
+                    android:textColor="@color/gray_body"
+                    android:textSize="@dimen/body_text" />
+            </LinearLayout>
+
         </LinearLayout>
 
-    </LinearLayout>
+        <TextView
+            android:id="@+id/tv_description_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/description"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/body_text"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/book_detail"
+            app:layout_constraintStart_toStartOf="parent"/>
 
-    <TextView
-        android:id="@+id/tv_description_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="12dp"
-        android:text="Deskripsi"
-        android:textSize="@dimen/body_text"
-        android:textStyle="bold"
-        android:textColor="#45444b"
-        app:layout_constraintTop_toBottomOf="@id/book_detail"/>
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:justificationMode="inter_word"
+            android:text="Buku ini membahas 24 strategi Tiongkok tentang negosiasi superior, yang dituliskan dengan banyak sekali cerita dan contoh kasus nyata. Dinarasikan berdasarkan kisah The Art of War, strategi perang Tiongkok kuno yang masih relevan hingga saat ini. Pelajari siasat dan seni bernegosiasi di semua keadaan: - Cara bernegosiasi saat Anda tahu bahwa Anda di posisi yang lebih unggul - Cara bertindak bilamana Anda memiliki kekuatan yang sama dengan lawan - Bagaimana cara melemahkan lawan terlebih dahulu dengan teknik manipulatif, baru bernegosiasi - Bagaimana mengecoh lawan yang posisinya lebih kuat, sehingga mereka tidak fokus."
+            android:textColor="@color/gray_body"
+            android:textSize="@dimen/body_text"
+            app:layout_constraintTop_toBottomOf="@id/tv_description_label"
+            app:layout_constraintStart_toStartOf="parent"/>
 
-    <TextView
-        android:id="@+id/tv_description"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="4dp"
-        android:text="Buku ini membahas 24 strategi Tiongkok tentang negosiasi superior, yang dituliskan dengan banyak sekali cerita dan contoh kasus nyata. Dinarasikan berdasarkan kisah The Art of War, strategi perang Tiongkok kuno yang masih relevan hingga saat ini. Pelajari siasat dan seni bernegosiasi di semua keadaan: - Cara bernegosiasi saat Anda tahu bahwa Anda di posisi yang lebih unggul - Cara bertindak bilamana Anda memiliki kekuatan yang sama dengan lawan - Bagaimana cara melemahkan lawan terlebih dahulu dengan teknik manipulatif, baru bernegosiasi - Bagaimana mengecoh lawan yang posisinya lebih kuat, sehingga mereka tidak fokus."
-        android:textSize="@dimen/body_text"
-        android:textColor="#6a696f"
-        android:justificationMode="inter_word"
-        app:layout_constraintTop_toBottomOf="@id/tv_description_label"/>
-
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
